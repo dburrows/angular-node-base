@@ -1,0 +1,21 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+
+<div class="container content">
+  <div>
+    <h1>Title: {{title}}</h1>
+  </div>
+  <div ng-controller="exampleController">
+    <div class="content-list">
+      <div ng-repeat="user in users" ng-include="'user.html'" class="user item-{{ $index }}">
+      </div>
+    </div>
+    <div example-directive></div>
+  </div>
+  
+</div>
+
+
+
+{% endblock %}

@@ -1,0 +1,27 @@
+[
+  {
+    "handle": "grunt",
+    "spawn": {
+      "command": "grunt",
+      "args": [ "dev" ]
+    }
+  },
+  {
+    "handle": "server",
+    "spawn": {
+      "command": "forever",
+      "args": [ 
+        "-w", 
+          "--watchDirectory", "server/app", 
+          "server/bin/www" 
+      ]
+    }
+  },
+  {
+    "handle": "webdriver",
+    "spawn": {
+      "command": "webdriver-manager",
+      "args": [ "start" ]
+    }
+  }
+]

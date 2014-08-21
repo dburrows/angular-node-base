@@ -1,0 +1,9 @@
+.DS_Store
+.sass-cache
+.tmp
+/node_modules
+/tmp
+.env*
+client/build
+server/build
+server/views_production

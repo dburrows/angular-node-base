@@ -1,0 +1,26 @@
+@import "../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+ 
+body {
+  background-color: #eee;
+}
+
+.container {
+  background-color: #fff;
+}
+
+.content {
+  padding-bottom: 60px;
+}
+
+.media {
+  padding: 10px 0;
+}
+
+// homepage
+
+.header-image {
+  height: 200px;
+  margin-top: 20px;
+  background: url('/assets/images/lhc.jpg') no-repeat;
+  background-size: 100%;
+}
