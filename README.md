@@ -69,13 +69,13 @@ Boot up all processes for development - web server on http://localhost:3000, gru
 kickit
 ```
 
-Builds the development version of the project and rebuild when changes occur  
+Build the development version of the project and rebuild when changes occur  
 
 ```
 grunt dev
 ```
 
-Builds the production version of the the project  
+Build the production version of the the project  
 ```
 grunt dist
 ```
@@ -99,27 +99,27 @@ npm run start-debug
 
 Note: Integration and end-to-end tests assume a development server is running.
 
-Runs every test, using various runners (mocha, karma & protractor)
+Run every test, using various runners (mocha, karma & protractor)
 ```
 npm test
 ```
 
-Runs server tests
+Run server tests
 ```
 test-server
 ```
 
-Runs client unit tests in node
+Run client unit tests in node
 ```
 test-client-u``nit-node
 ```
 
-Runs client unit tests in browser (Chrome) using Karma 
+Run client unit tests in browser (Chrome) using Karma 
 ```
 test-client-unit``-browser
 ```
 
-Runs end-to-end tests in browser using Protractor
+Run end-to-end tests in browser using Protractor
 ```
 test-e2e"
 ```
