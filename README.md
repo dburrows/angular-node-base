@@ -101,27 +101,27 @@ Note: Integration and end-to-end tests assume a development server is running.
 
 Run every test, using various runners (mocha, karma & protractor)
 ```
-npm test
+npm run npm test
 ```
 
 Run server tests
 ```
-test-server
+npm run test-server
 ```
 
 Run client unit tests in node
 ```
-test-client-u``nit-node
+npm run test-client-unit-node
 ```
 
 Run client unit tests in browser (Chrome) using Karma 
 ```
-test-client-unit``-browser
+npm run test-client-unit-browser
 ```
 
 Run end-to-end tests in browser using Protractor
 ```
-test-e2e"
+npm run test-e2e
 ```
 
 
