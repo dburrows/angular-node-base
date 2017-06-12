@@ -38,7 +38,7 @@ npm install -g mocha forever grunt-cli protractor karma kickit
 
 This will install
 
-* mocha, the test framework - http://visionmedia.github.io/mocha/
+* mocha, the test framework - http://mochajs.org/
 * forever, a tool that ensures a script is run continuously - https://github.com/nodejitsu/forever
 * grunt-cli, the command line interface for the Grunt build tool - http://gruntjs.com/
 * protractor, the Angular e2e framework - https://github.com/angular/protractor
